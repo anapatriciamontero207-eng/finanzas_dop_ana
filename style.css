@@ -1,0 +1,48 @@
+body {
+  background-color: #000;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+
+/* Neon */
+.text-neon {
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+/* Tarjetas */
+.card-cyber {
+  background: #111;
+  border: 1px solid #0ff;
+  box-shadow: 0 0 15px #0ff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/* Imagen perfil */
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #00ffff;
+  padding: 3px;
+  background: black;
+  box-shadow:
+    0 0 10px #00ffff,
+    0 0 20px #8a2be2;
+  cursor: pointer;
+  animation: pulse 1.5s infinite;
+}
+
+.modal-img {
+  width: 120px;
+  border-radius: 50%;
+  border: 3px solid #0ff;
+}
+
+/* Animación */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
